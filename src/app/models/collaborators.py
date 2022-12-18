@@ -64,7 +64,10 @@ def create_collection_collaborators(mongo_client):
                   "bsonType": "string",
                   "description": "Estado da federação"
                 },
-
+                "imagem": {
+                  "bsonType": "object",
+                  "description": "Imagem do Colaborador"
+                }
             },
         }
     }
