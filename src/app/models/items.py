@@ -25,7 +25,7 @@ def create_collection_items(mongo_client):
                   "description": "Valor em reais",
                 },
                 "imagem": {
-                  "bsonType": "object",
+                  "bsonType": "string",
                   "description": "Imagem do item"
                 },
                 "marca": {
